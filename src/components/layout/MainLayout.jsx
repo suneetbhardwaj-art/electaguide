@@ -9,7 +9,9 @@ const MainLayout = () => {
         <Outlet />
       </main>
       <footer className="bg-slate-800 text-slate-300 py-6 text-center text-sm mt-auto">
-        <p>Built with Google Antigravity for PromptWars 2026 🚀 | ElectaGuide — Civic Education for Everyone</p>
+        <p>
+          Built with Google Antigravity by <a href="https://www.linkedin.com/in/suneet-bhardwaj-4a0060365/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline font-semibold">Suneet Bhardwaj</a> 🚀 | ElectaGuide — Civic Education for Everyone
+        </p>
       </footer>
     </div>
   );
