@@ -1,0 +1,222 @@
+{
+  "India": [
+    {
+      "title": "Election Announcement",
+      "emoji": "📢",
+      "timeframe": "2-3 months before",
+      "beginner": "Like setting the date and rules for a big nationwide festival.",
+      "advanced": "The Election Commission of India (ECI) announces the schedule, instantly enforcing the Model Code of Conduct (MCC) to ensure fair play."
+    },
+    {
+      "title": "Filing Nominations",
+      "emoji": "📝",
+      "timeframe": "1 month before",
+      "beginner": "Players signing up to join the game.",
+      "advanced": "Candidates submit their nomination papers and affidavits detailing their assets, liabilities, and criminal records."
+    },
+    {
+      "title": "Campaigning",
+      "emoji": "🗣️",
+      "timeframe": "2-4 weeks before",
+      "beginner": "Candidates trying to convince you why they are the best choice.",
+      "advanced": "Parties release manifestos, hold rallies, and use media. Campaigning must legally stop 48 hours before polling begins."
+    },
+    {
+      "title": "Voting Day",
+      "emoji": "🗳️",
+      "timeframe": "Election Day",
+      "beginner": "Everyone goes to the polling booth to press a button for their favorite.",
+      "advanced": "Citizens use Electronic Voting Machines (EVMs) with VVPAT (Voter Verifiable Paper Audit Trail) for transparency."
+    },
+    {
+      "title": "Counting & Results",
+      "emoji": "📊",
+      "timeframe": "A few days after voting",
+      "beginner": "Adding up all the points to see who won.",
+      "advanced": "EVMs are securely transported and counted under heavy security. The party with at least 272 out of 543 Lok Sabha seats forms the government."
+    },
+    {
+      "title": "Government Formation",
+      "emoji": "🏛️",
+      "timeframe": "1-2 weeks after results",
+      "beginner": "The winning team's captain becomes the Prime Minister.",
+      "advanced": "The President invites the leader of the majority party or coalition to take the oath of office as Prime Minister."
+    }
+  ],
+  "USA": [
+    {
+      "title": "Primaries & Caucuses",
+      "emoji": "🎪",
+      "timeframe": "January to June",
+      "beginner": "Teams picking their best player for the final match.",
+      "advanced": "States hold primary elections or caucuses to award delegates to presidential candidates for the national conventions."
+    },
+    {
+      "title": "National Conventions",
+      "emoji": "🎉",
+      "timeframe": "July to August",
+      "beginner": "A big party where the team officially announces their player.",
+      "advanced": "Parties officially nominate their presidential and vice-presidential candidates based on delegate votes."
+    },
+    {
+      "title": "General Campaigning",
+      "emoji": "🇺🇸",
+      "timeframe": "September to November",
+      "beginner": "The two main players travel everywhere asking for your vote.",
+      "advanced": "Candidates focus heavily on 'Swing States' where the vote could go either way, participating in televised debates."
+    },
+    {
+      "title": "Election Day",
+      "emoji": "🗳️",
+      "timeframe": "First Tuesday after Nov 1",
+      "beginner": "People go to vote, but they are actually voting for 'electors'.",
+      "advanced": "Voters cast ballots for a slate of electors pledged to a candidate, initiating the Electoral College process."
+    },
+    {
+      "title": "Electoral College Vote",
+      "emoji": "⚖️",
+      "timeframe": "Mid-December",
+      "beginner": "The points from each state are officially counted.",
+      "advanced": "The 538 electors meet in their respective states to officially cast their votes for President and Vice President. 270 votes are needed to win."
+    },
+    {
+      "title": "Inauguration",
+      "emoji": "🏛️",
+      "timeframe": "January 20",
+      "beginner": "The winner officially starts their new job.",
+      "advanced": "The President-elect takes the oath of office at the U.S. Capitol, officially beginning their four-year term."
+    }
+  ],
+  "UK": [
+    {
+      "title": "Dissolution of Parliament",
+      "emoji": "🚪",
+      "timeframe": "25 working days before",
+      "beginner": "Everyone loses their job as an MP and has to reapply.",
+      "advanced": "The Monarch dissolves Parliament, usually at the Prime Minister's request, vacating all 650 seats in the House of Commons."
+    },
+    {
+      "title": "The 'Purdah' Period",
+      "emoji": "🤐",
+      "timeframe": "Until Election Day",
+      "beginner": "The government isn't allowed to make big news to stay fair.",
+      "advanced": "Strict rules prevent civil servants and local government from making announcements that could influence the election outcome."
+    },
+    {
+      "title": "Nominations",
+      "emoji": "📝",
+      "timeframe": "19 days before",
+      "beginner": "Candidates officially enter the race in their local area.",
+      "advanced": "Candidates must submit nomination papers with signatures from 10 registered electors in their constituency and a £500 deposit."
+    },
+    {
+      "title": "Campaigning",
+      "emoji": "🇬🇧",
+      "timeframe": "3-4 weeks",
+      "beginner": "Politicians knock on doors and debate on TV.",
+      "advanced": "Focused on local constituencies and national manifestos. TV debates are common, though not legally mandated."
+    },
+    {
+      "title": "Polling Day",
+      "emoji": "🗳️",
+      "timeframe": "Usually a Thursday",
+      "beginner": "People vote using a simple paper ballot.",
+      "advanced": "Voters use the First-Past-The-Post (FPTP) system, marking an 'X' next to their preferred local candidate."
+    },
+    {
+      "title": "Results & Government",
+      "emoji": "👑",
+      "timeframe": "Overnight/Next Day",
+      "beginner": "The winner goes to see the King to become Prime Minister.",
+      "advanced": "If a party wins over 325 seats, their leader is invited by the Monarch to form a government. Otherwise, a 'hung parliament' results in coalition talks."
+    }
+  ],
+  "Australia": [
+    {
+      "title": "Issuing the Writs",
+      "emoji": "📜",
+      "timeframe": "33-58 days before",
+      "beginner": "The official starting gun for the election race.",
+      "advanced": "The Governor-General issues formal documents (writs) commanding the Electoral Commissioner to hold an election."
+    },
+    {
+      "title": "Close of Rolls",
+      "emoji": "📖",
+      "timeframe": "7 days after writs",
+      "beginner": "The final deadline to register so you can vote.",
+      "advanced": "The electoral roll is frozen. Voting in Australia is compulsory; failing to register or vote results in a fine."
+    },
+    {
+      "title": "Nominations",
+      "emoji": "📝",
+      "timeframe": "10-27 days after writs",
+      "beginner": "Candidates put their names on the ballot paper.",
+      "advanced": "Candidates declare their intention to run for either the House of Representatives or the Senate, paying a deposit."
+    },
+    {
+      "title": "Campaigning & Pre-polling",
+      "emoji": "🇦🇺",
+      "timeframe": "Up to 5 weeks",
+      "beginner": "People can actually vote early if they are busy on election day.",
+      "advanced": "Early voting centers open for those unable to vote on polling day. Mobile polling visits remote areas and hospitals."
+    },
+    {
+      "title": "Election Day",
+      "emoji": "🗳️",
+      "timeframe": "Always a Saturday",
+      "beginner": "Everyone votes and eats a 'Democracy Sausage'.",
+      "advanced": "Voters use Preferential Voting for the House (ranking candidates 1, 2, 3...) and Proportional Representation for the Senate."
+    },
+    {
+      "title": "Results & Declaration",
+      "emoji": "✅",
+      "timeframe": "Days to weeks after",
+      "beginner": "Counting the ranked votes to find the most popular winner.",
+      "advanced": "The complex preferential counting can take time. The party commanding a majority (76 seats) in the House forms the government."
+    }
+  ],
+  "Germany": [
+    {
+      "title": "Election Date Set",
+      "emoji": "📅",
+      "timeframe": "Months before",
+      "beginner": "The President picks a Sunday for the big vote.",
+      "advanced": "The Federal President sets the date for the Bundestag election, which must be a Sunday or public holiday."
+    },
+    {
+      "title": "Candidate Nomination",
+      "emoji": "📝",
+      "timeframe": "69 days before",
+      "beginner": "Parties make lists of who they want in power.",
+      "advanced": "Parties submit their state lists (Landeslisten) and direct candidates for the 299 constituencies."
+    },
+    {
+      "title": "Campaigning",
+      "emoji": "🇩🇪",
+      "timeframe": "6-8 weeks",
+      "beginner": "Posters go up everywhere and parties share their plans.",
+      "advanced": "State-funded parties focus heavily on policy platforms. TV debates between the main chancellor candidates are a highlight."
+    },
+    {
+      "title": "Election Day",
+      "emoji": "🗳️",
+      "timeframe": "Election Sunday",
+      "beginner": "You get two votes: one for a person, one for a party.",
+      "advanced": "Voters cast a 'First Vote' for a local constituency representative (FPTP) and a 'Second Vote' for a party list (Proportional Representation)."
+    },
+    {
+      "title": "Allocating Seats",
+      "emoji": "🧮",
+      "timeframe": "Election Night",
+      "beginner": "Math is used to make sure the parliament matches the party votes exactly.",
+      "advanced": "The Second Vote determines the total percentage of seats a party gets. 'Overhang' and 'Leveling' mandates are added to ensure pure proportionality."
+    },
+    {
+      "title": "Electing the Chancellor",
+      "emoji": "🤝",
+      "timeframe": "Weeks to months after",
+      "beginner": "Parties team up to get over 50% and pick the leader.",
+      "advanced": "Because absolute majorities are rare, parties form coalitions. The newly formed Bundestag then officially elects the Chancellor via a secret ballot."
+    }
+  ]
+}

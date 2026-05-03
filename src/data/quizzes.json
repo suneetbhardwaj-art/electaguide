@@ -1,0 +1,162 @@
+{
+  "India": [
+    {
+      "question": "What is the primary difference between the Lok Sabha and the Rajya Sabha?",
+      "options": ["Lok Sabha is the upper house, Rajya Sabha is the lower house", "Members of Lok Sabha are directly elected by the public, Rajya Sabha members are elected by state legislatures", "Only the Rajya Sabha can pass money bills", "The Prime Minister must be a member of the Rajya Sabha"],
+      "answer": "Members of Lok Sabha are directly elected by the public, Rajya Sabha members are elected by state legislatures",
+      "explanation": "The Lok Sabha (House of the People) represents citizens directly, while the Rajya Sabha (Council of States) represents the states and union territories."
+    },
+    {
+      "question": "Under Article 324 of the Constitution, what power does the Election Commission of India (ECI) hold?",
+      "options": ["To draft new laws for the country", "To appoint the Prime Minister", "Superintendence, direction, and control of all elections to Parliament and State Legislatures", "To dissolve the Supreme Court"],
+      "answer": "Superintendence, direction, and control of all elections to Parliament and State Legislatures",
+      "explanation": "Article 324 grants the ECI immense autonomous power to ensure free and fair elections without government interference."
+    },
+    {
+      "question": "In the Indian electoral system (First-Past-The-Post), how is a winner determined in a constituency?",
+      "options": ["The candidate must secure more than 50% of the total votes", "The candidate with the highest number of votes wins, regardless of the percentage", "The candidate is chosen by the President", "The party with the most national votes appoints the winner"],
+      "answer": "The candidate with the highest number of votes wins, regardless of the percentage",
+      "explanation": "In First-Past-The-Post (FPTP), the candidate who secures the most votes wins the seat, even if they don't secure an absolute majority (>50%)."
+    },
+    {
+      "question": "What is the specific requirement regarding polling booths set by the Election Commission?",
+      "options": ["They must only be located in government schools", "No voter should ordinarily travel more than 2 km to reach a polling booth", "They must have air conditioning", "They can only be operated by military personnel"],
+      "answer": "No voter should ordinarily travel more than 2 km to reach a polling booth",
+      "explanation": "To ensure maximum accessibility, the ECI sets up over a million polling stations, sometimes even for a single voter deep in a forest."
+    },
+    {
+      "question": "What happens if an Electronic Voting Machine (EVM) malfunctions during polling?",
+      "options": ["The election is cancelled for that constituency", "Voters must switch to paper ballots immediately", "The EVM is replaced and voting continues; previous votes are safely stored in the Control Unit", "The polling booth is shut down for the day"],
+      "answer": "The EVM is replaced and voting continues; previous votes are safely stored in the Control Unit",
+      "explanation": "The Control Unit of the EVM safely retains all recorded votes in its memory. Only the malfunctioning Ballot Unit or VVPAT is replaced."
+    }
+  ],
+  "USA": [
+    {
+      "question": "How many electoral votes are needed to win the US Presidency?",
+      "options": ["538", "270", "200", "50"],
+      "answer": "270",
+      "explanation": "There are 538 total electoral votes. A candidate needs a simple majority, which is at least 270 votes, to win the presidency."
+    },
+    {
+      "question": "What is a 'Swing State'?",
+      "options": ["A state that physically moves", "A state that always votes for the same party", "A state where the two major political parties have similar levels of support", "A state without any electoral votes"],
+      "answer": "A state where the two major political parties have similar levels of support",
+      "explanation": "Swing states (or battleground states) are crucial because they can easily 'swing' to either the Democratic or Republican candidate in an election."
+    },
+    {
+      "question": "In the US, Election Day for federal offices is always held on a:",
+      "options": ["Sunday", "Tuesday", "Thursday", "Saturday"],
+      "answer": "Tuesday",
+      "explanation": "By law, Election Day is the first Tuesday after the first Monday in November. This was originally established in 1845 to accommodate farmers."
+    },
+    {
+      "question": "Who takes over if the President dies or resigns?",
+      "options": ["The Speaker of the House", "The Secretary of State", "The Vice President", "The Chief Justice"],
+      "answer": "The Vice President",
+      "explanation": "The Vice President is first in the line of presidential succession, followed by the Speaker of the House of Representatives."
+    },
+    {
+      "question": "What is a 'Primary' election?",
+      "options": ["The final election that decides the President", "An election to choose a political party's candidate for office", "An election only for first-time voters", "An election held to replace a politician who resigned"],
+      "answer": "An election to choose a political party's candidate for office",
+      "explanation": "Primaries and caucuses are how political parties narrow down their field of candidates before the general election."
+    }
+  ],
+  "UK": [
+    {
+      "question": "What voting system is used to elect Members of Parliament (MPs) to the House of Commons?",
+      "options": ["Proportional Representation", "First-Past-The-Post", "Ranked Choice Voting", "Mixed-Member Proportional"],
+      "answer": "First-Past-The-Post",
+      "explanation": "In FPTP, the candidate with the most votes in each constituency wins the seat. They do not need an absolute majority of votes."
+    },
+    {
+      "question": "How many constituencies (and therefore MPs) are there in the UK Parliament?",
+      "options": ["500", "650", "720", "435"],
+      "answer": "650",
+      "explanation": "The UK is divided into 650 constituencies, each electing one MP to sit in the House of Commons."
+    },
+    {
+      "question": "What happens if no party wins a majority of seats?",
+      "options": ["The Monarch takes over", "Another election is held immediately", "A 'Hung Parliament' occurs, leading to coalition or minority government", "The two biggest parties must merge"],
+      "answer": "A 'Hung Parliament' occurs, leading to coalition or minority government",
+      "explanation": "In a hung parliament, parties negotiate to form a coalition government or the largest party attempts to govern as a minority."
+    },
+    {
+      "question": "Who officially appoints the Prime Minister?",
+      "options": ["The House of Commons", "The House of Lords", "The Monarch", "The Supreme Court"],
+      "answer": "The Monarch",
+      "explanation": "After an election, the Monarch invites the leader of the party that can command the confidence of the House of Commons to form a government."
+    },
+    {
+      "question": "What is the maximum length of a term for a UK Parliament before a new election must be held?",
+      "options": ["3 years", "4 years", "5 years", "6 years"],
+      "answer": "5 years",
+      "explanation": "By law, a parliament can last no longer than five years, though early elections can be called under specific circumstances."
+    }
+  ],
+  "Australia": [
+    {
+      "question": "Is voting compulsory in Australia for federal elections?",
+      "options": ["No, it is entirely voluntary", "Yes, for all registered voters over 18", "Yes, but only for property owners", "Only if you live in a major city"],
+      "answer": "Yes, for all registered voters over 18",
+      "explanation": "Voting has been compulsory for federal elections since 1924. Failing to vote without a valid reason results in a fine."
+    },
+    {
+      "question": "What voting system is used for the House of Representatives?",
+      "options": ["First-Past-The-Post", "Preferential Voting", "Proportional Representation", "Electoral College"],
+      "answer": "Preferential Voting",
+      "explanation": "Voters rank candidates in order of preference (1, 2, 3...). If no one gets over 50% initially, the lowest-scoring candidates are eliminated and their votes redistributed."
+    },
+    {
+      "question": "What is a 'Democracy Sausage'?",
+      "options": ["A political bribe", "A nickname for the Prime Minister", "A sausage sizzle held at polling places on Election Day", "A type of ballot box"],
+      "answer": "A sausage sizzle held at polling places on Election Day",
+      "explanation": "It is a beloved Australian tradition where community groups run fundraising barbecues at polling stations."
+    },
+    {
+      "question": "How long is the term for a Senator representing an Australian state?",
+      "options": ["3 years", "4 years", "6 years", "Life"],
+      "answer": "6 years",
+      "explanation": "State senators serve 6-year terms, with half the Senate facing election every three years. Territory senators serve 3-year terms."
+    },
+    {
+      "question": "Who is the head of state of Australia?",
+      "options": ["The Prime Minister", "The Governor-General", "The British Monarch", "The President"],
+      "answer": "The British Monarch",
+      "explanation": "Australia is a constitutional monarchy. The British Monarch is the head of state, represented locally by the Governor-General."
+    }
+  ],
+  "Germany": [
+    {
+      "question": "How many votes does a German voter get in a federal election?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": "Two",
+      "explanation": "Voters get a 'First Vote' for a local constituency representative and a 'Second Vote' for a political party list."
+    },
+    {
+      "question": "Which vote determines the overall proportion of seats a party gets in the Bundestag?",
+      "options": ["The First Vote", "The Second Vote", "The Chancellor's Vote", "The Presidential Vote"],
+      "answer": "The Second Vote",
+      "explanation": "The Second Vote is the most important for the balance of power, as it determines the total percentage of seats each party receives."
+    },
+    {
+      "question": "What is the '5% hurdle' (Sperrklausel)?",
+      "options": ["A tax on campaign spending", "A rule that a party must win at least 5% of the national vote to get seats", "The maximum margin of victory allowed", "The minimum voter turnout required"],
+      "answer": "A rule that a party must win at least 5% of the national vote to get seats",
+      "explanation": "To prevent extreme fragmentation of the parliament, a party must win at least 5% of the Second Vote (or win three direct constituencies) to enter the Bundestag."
+    },
+    {
+      "question": "Who elects the German Chancellor?",
+      "options": ["The public directly", "The Federal President", "The Members of the Bundestag", "The Constitutional Court"],
+      "answer": "The Members of the Bundestag",
+      "explanation": "After the federal election, the newly formed parliament (Bundestag) votes to elect the Chancellor, usually the leader of the largest party in the coalition."
+    },
+    {
+      "question": "What are 'Overhang mandates' (Überhangmandate)?",
+      "options": ["Seats given to foreign observers", "Extra seats created when a party wins more local constituencies than their Second Vote percentage entitles them to", "Seats reserved for the opposition", "Temporary seats for the President"],
+      "answer": "Extra seats created when a party wins more local constituencies than their Second Vote percentage entitles them to",
+      "explanation": "To maintain proportionality, 'leveling mandates' are then added for other parties to balance out these overhang seats, making the Bundestag larger."
+    }
+  ]
+}

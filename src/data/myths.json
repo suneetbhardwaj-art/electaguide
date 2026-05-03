@@ -1,0 +1,66 @@
+{
+  "Universal": [
+    {
+      "myth": "My single vote doesn't make a difference, so why bother?",
+      "fact": "Elections are frequently decided by razor-thin margins. A single vote compounded by your community directly shifts power.",
+      "example": "In the 2000 US Presidential Election, the state of Florida was decided by just 537 votes out of nearly 6 million cast, entirely altering the course of global history."
+    },
+    {
+      "myth": "Politicians only care about rich donors, not regular voters.",
+      "fact": "While money influences campaigns, votes are the ultimate currency. Politicians cater to demographics that consistently show up to vote.",
+      "example": "Historically, policies protecting the elderly (like Social Security or Medicare) are heavily guarded by politicians because older citizens have the highest and most reliable voter turnout rates."
+    },
+    {
+      "myth": "If I don't know everything about the issues, I shouldn't vote.",
+      "fact": "You don't need a PhD in political science to vote. Voting is about your values and which candidate aligns best with your vision for society.",
+      "example": "Many voters focus on one or two 'make-or-break' issues that affect their daily lives (like healthcare costs or local schools) to make their decision, which is entirely valid."
+    },
+    {
+      "myth": "The system is rigged, and the outcomes are predetermined anyway.",
+      "fact": "Independent election commissions, international observers, and decentralized counting systems make widespread fraud incredibly difficult in established democracies.",
+      "example": "In India, the Election Commission operates autonomously from the government, successfully conducting transparent elections for nearly a billion voters without systemic interference."
+    },
+    {
+      "myth": "Protesting and posting online is more effective than voting.",
+      "fact": "Activism brings attention to issues, but voting is the mechanism that hires the people who can actually write those issues into law.",
+      "example": "The Civil Rights Movement used protests to demand equality, but it was the resulting Voting Rights Act of 1965 that legally enfranchised millions of Black Americans, fundamentally changing the political landscape."
+    },
+    {
+      "myth": "All political parties are exactly the same, nothing changes.",
+      "fact": "Parties have vastly different platforms on taxation, climate change, healthcare, and human rights. Who is in power has measurable impacts.",
+      "example": "Following the 1945 UK election, the newly elected Labour government established the National Health Service (NHS), a massive departure from previous healthcare policy that changed the country forever."
+    }
+  ],
+  "India": [
+    {
+      "myth": "EVMs (Electronic Voting Machines) can be hacked using Bluetooth or Wi-Fi.",
+      "fact": "EVMs are standalone standalone machines with no radio frequency receiver or data decoder. They physically cannot connect to any wireless network.",
+      "example": "In 2017, the Election Commission of India hosted an open 'EVM Hackathon' inviting technical experts to hack the machines under election-like conditions. No one was able to hack them."
+    },
+    {
+      "myth": "Pressing NOTA (None of the Above) is a wasted vote and doesn't count.",
+      "fact": "NOTA is counted and is crucial for democratic expression. High NOTA votes force political parties to reflect on poor candidate choices and can influence future nominations.",
+      "example": "In the 2018 Madhya Pradesh assembly elections, the NOTA vote share was higher than the victory margin in 22 constituencies, proving that voter dissatisfaction is a measurable political force."
+    },
+    {
+      "myth": "Only highly educated people should be allowed to vote to make 'smart' choices.",
+      "fact": "Democracy is about lived experiences, not just degrees. The policies of the government impact a daily wage worker just as much, if not more, than a CEO.",
+      "example": "In the historic 1977 general elections, despite low literacy rates at the time, millions of rural and working-class Indian voters decisively voted out the incumbent government to restore democratic rights after the Emergency."
+    },
+    {
+      "myth": "If I move to a new city, I cannot vote unless I go back to my hometown.",
+      "fact": "You can absolutely register to vote in your new city by filling out Form 6. The Election Commission actively encourages 'ordinarily resident' citizens to vote locally.",
+      "example": "During every major election cycle, the ECI runs massive 'Voter Registration Camps' in IT hubs like Bengaluru and Pune specifically targeting young migrant professionals to shift their constituencies."
+    },
+    {
+      "myth": "The ruling party controls the Election Commission.",
+      "fact": "The Election Commission of India is a permanent, independent Constitutional body (Article 324) that operates autonomously from the ruling government.",
+      "example": "In 1991, Chief Election Commissioner T.N. Seshan famously enforced the Model Code of Conduct so strictly that he delayed elections and censured powerful ministers from the ruling party to ensure fairness."
+    },
+    {
+      "myth": "Voter ID (EPIC card) is the absolute only document allowed for voting.",
+      "fact": "While the Voter ID is preferred, the Election Commission allows up to 11 other alternative photo identity documents, including Aadhar, Passport, and Driving License, provided your name is on the electoral roll.",
+      "example": "In recent Lok Sabha elections, millions of first-time voters who had not yet received their physical EPIC cards were able to cast their votes successfully using their Aadhar cards and digital slips."
+    }
+  ]
+}
