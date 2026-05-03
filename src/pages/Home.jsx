@@ -2,11 +2,11 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext';
 
 const countries = [
-  { name: 'India', flag: '🇮🇳', tagline: 'The world\'s largest democracy.' },
-  { name: 'USA', flag: '🇺🇸', tagline: 'The Electoral College system.' },
-  { name: 'UK', flag: '🇬🇧', tagline: 'First-Past-The-Post parliamentary system.' },
-  { name: 'Australia', flag: '🇦🇺', tagline: 'Compulsory preferential voting.' },
-  { name: 'Germany', flag: '🇩🇪', tagline: 'Mixed-member proportional representation.' },
+  { code: 'in', name: 'India', tagline: 'The world\'s largest democracy.' },
+  { code: 'us', name: 'USA', tagline: 'The Electoral College system.' },
+  { code: 'gb', name: 'UK', tagline: 'First-Past-The-Post parliamentary system.' },
+  { code: 'au', name: 'Australia', tagline: 'Compulsory preferential voting.' },
+  { code: 'de', name: 'Germany', tagline: 'Mixed-member proportional representation.' }
 ];
 
 const Home = () => {
@@ -48,8 +48,10 @@ const Home = () => {
                   : 'border-slate-200 bg-white hover:border-blue-300 hover:shadow'
               }`}
             >
-              <span className="text-5xl mb-3">{country.flag}</span>
-              <h3 className="font-bold text-lg text-slate-800 mb-2">{country.name}</h3>
+              <div className="text-5xl mb-3 shadow-sm rounded-sm overflow-hidden inline-block border border-slate-200">
+                <span className={`fi fi-${country.code}`}></span>
+              </div>
+              <h3 className="font-bold text-lg text-deepBlue mb-1">{country.name}</h3>
               <p className="text-xs text-slate-500 leading-relaxed">{country.tagline}</p>
             </div>
           ))}
