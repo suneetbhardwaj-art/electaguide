@@ -36,6 +36,8 @@ const Navbar = () => {
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)} 
               className="text-white hover:text-blue-200 focus:outline-none"
+              aria-label="Toggle navigation menu"
+              aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>

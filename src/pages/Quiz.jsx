@@ -60,7 +60,7 @@ const Quiz = () => {
       <div className="animate-fadeIn max-w-2xl mx-auto py-12 text-center">
         {isHighScorer && <Confetti width={window.innerWidth} height={window.innerHeight} recycle={false} numberOfPieces={500} />}
         <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-100">
-          <div className="text-6xl mb-6">🏆</div>
+          <div className="text-6xl mb-6"><span role="img" aria-label="trophy">🏆</span></div>
           <h1 className="text-4xl font-bold text-deepBlue mb-4">Quiz Complete!</h1>
           <p className="text-2xl font-semibold text-slate-700 mb-6">
             You scored {score} out of {questions.length}
@@ -76,7 +76,7 @@ const Quiz = () => {
             onClick={() => navigate('/chat')}
             className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-lg hover:scale-105 w-full sm:w-auto flex items-center justify-center gap-2 mx-auto"
           >
-            <span>💬</span> Chat with ElectaGuide →
+            <span role="img" aria-label="speech bubble">💬</span> Chat with ElectaGuide →
           </button>
         </div>
       </div>
@@ -116,7 +116,7 @@ const Quiz = () => {
           <div className="mt-8 animate-fadeIn">
             <div className={`p-5 rounded-xl border-l-4 ${selectedAnswer === currentQuestion.answer ? 'bg-green-50 border-green-500' : 'bg-red-50 border-red-500'}`}>
               <h3 className={`font-bold mb-2 flex items-center gap-2 ${selectedAnswer === currentQuestion.answer ? 'text-green-800' : 'text-red-800'}`}>
-                {selectedAnswer === currentQuestion.answer ? '✅ Correct!' : '❌ Incorrect'}
+                {selectedAnswer === currentQuestion.answer ? <><span role="img" aria-label="check mark">✅</span> Correct!</> : <><span role="img" aria-label="cross mark">❌</span> Incorrect</>}
               </h3>
               <p className="text-slate-700 leading-relaxed">
                 {currentQuestion.explanation}

@@ -24,7 +24,9 @@ const Home = () => {
   return (
     <div className="animate-fadeIn flex flex-col items-center py-12 max-w-5xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-deepBlue mb-4 tracking-tight">ElectaGuide 🗳️</h1>
+        <h1 className="text-5xl font-bold text-deepBlue mb-4 tracking-tight">
+          ElectaGuide <span role="img" aria-label="ballot box">🗳️</span>
+        </h1>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto">
           Your personal guide to understanding elections — simple, clear, and empowering.
         </p>
@@ -39,9 +41,10 @@ const Home = () => {
         <h2 className="text-2xl font-semibold text-deepBlue mb-6 text-center">Select a Country</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {countries.map((country) => (
-            <div
+            <button
               key={country.name}
               onClick={() => setSelectedCountry(country.name)}
+              aria-pressed={selectedCountry === country.name}
               className={`cursor-pointer rounded-xl p-6 flex flex-col items-center text-center transition-all duration-200 border-2 ${
                 selectedCountry === country.name
                   ? 'border-blue-600 bg-blue-50 shadow-md transform scale-105'
@@ -53,7 +56,7 @@ const Home = () => {
               </div>
               <h3 className="font-bold text-lg text-deepBlue mb-1">{country.name}</h3>
               <p className="text-xs text-slate-500 leading-relaxed">{country.tagline}</p>
-            </div>
+            </button>
           ))}
         </div>
       </div>
@@ -63,6 +66,7 @@ const Home = () => {
         <div className="flex items-center space-x-4 bg-slate-100 p-2 rounded-lg">
           <button
             onClick={() => setMode('Beginner')}
+            aria-pressed={mode === 'Beginner'}
             className={`px-6 py-2 rounded-md font-medium transition-colors ${
               mode === 'Beginner' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'
             }`}
@@ -71,6 +75,7 @@ const Home = () => {
           </button>
           <button
             onClick={() => setMode('Advanced')}
+            aria-pressed={mode === 'Advanced'}
             className={`px-6 py-2 rounded-md font-medium transition-colors ${
               mode === 'Advanced' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'
             }`}

@@ -17,9 +17,10 @@ const FlipCard = ({ mythData, onFirstFlip }) => {
   };
 
   return (
-    <div 
-      className="relative w-full h-80 sm:h-72 cursor-pointer" 
+    <button 
+      className="relative w-full h-80 sm:h-72 cursor-pointer block text-left" 
       onClick={handleClick}
+      aria-expanded={isFlipped}
       style={{ perspective: 1000 }}
     >
       <motion.div
@@ -33,7 +34,7 @@ const FlipCard = ({ mythData, onFirstFlip }) => {
           className="absolute w-full h-full bg-white border-2 border-slate-100 rounded-2xl p-6 flex flex-col items-center justify-center text-center shadow hover:shadow-lg transition-shadow"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <div className="text-5xl mb-6">🤔</div>
+          <div className="text-5xl mb-6"><span role="img" aria-label="thinking face">🤔</span></div>
           <h3 className="text-xl font-bold text-slate-800 mb-4 px-2">{mythData.myth}</h3>
           <div className="mt-auto inline-flex items-center gap-2 text-blue-600 font-semibold bg-blue-50 px-4 py-2 rounded-full">
             <span>Tap to reveal</span>
@@ -47,7 +48,7 @@ const FlipCard = ({ mythData, onFirstFlip }) => {
         >
           <div className="mb-4">
             <h3 className="font-bold text-green-700 text-lg mb-2 flex items-center gap-2">
-              <span className="text-2xl">✅</span> Fact
+              <span className="text-2xl" role="img" aria-label="check mark">✅</span> Fact
             </h3>
             <p className="text-sm text-slate-800 font-medium leading-relaxed">
               {mythData.fact}
@@ -63,7 +64,7 @@ const FlipCard = ({ mythData, onFirstFlip }) => {
           </div>
         </div>
       </motion.div>
-    </div>
+    </button>
   );
 };
 
@@ -89,7 +90,7 @@ const MythBuster = () => {
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-deepBlue mb-4">Myth Buster</h1>
         <div className="inline-flex items-center gap-3 bg-blue-50 border border-blue-200 px-6 py-3 rounded-full">
-          <span className="text-xl">🎯</span>
+          <span className="text-xl" role="img" aria-label="target">🎯</span>
           <span className="font-semibold text-blue-800 text-lg">
             You've busted {bustedCount} of {myths.length} myths
           </span>
